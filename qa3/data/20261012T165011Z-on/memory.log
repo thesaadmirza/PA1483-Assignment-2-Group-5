@@ -1,0 +1,243 @@
+[H{"BlockIO":"0B / 872kB","CPUPerc":"2.04%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.06%","MemUsage":"41.54MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"17.9MB / 28.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"2.04%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.06%","MemUsage":"41.54MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"17.9MB / 28.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"24.67%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"18.5MB / 29MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"24.67%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"18.5MB / 29MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.97%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.15MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"19.8MB / 31MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.97%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.15MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"19.8MB / 31MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.88%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"21MB / 33MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.88%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"21MB / 33MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"47.07%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.91MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"22.4MB / 35.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"47.07%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.91MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"22.4MB / 35.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"47.09%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.11MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"23.7MB / 37.2MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"47.09%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.11MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"23.7MB / 37.2MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.88%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.34MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"25MB / 39.3MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.88%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.34MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"25MB / 39.3MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.24%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.26MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"26.3MB / 41.3MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.24%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.26MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"26.3MB / 41.3MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.14%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.19MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"27.4MB / 43.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.14%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.19MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"27.4MB / 43.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"44.88%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.16MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"28.7MB / 45.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"44.88%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.16MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"28.7MB / 45.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.89%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.07MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"30MB / 47.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.89%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.07MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"30MB / 47.1MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.46%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.26MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"31.3MB / 49.2MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.46%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.26MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"31.3MB / 49.2MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.11%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.92MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"32.6MB / 51.2MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.11%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.92MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"32.6MB / 51.2MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.13%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.88MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"34MB / 53.3MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.13%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.88MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"34MB / 53.3MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"47.45%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.04MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"35.3MB / 55.4MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"47.45%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.04MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"35.3MB / 55.4MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.87%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.24MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"36.6MB / 57.5MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.87%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.24MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"36.6MB / 57.5MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.71%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.16MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"37.9MB / 59.5MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.71%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.16MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"37.9MB / 59.5MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.78%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.88MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"39.2MB / 61.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.78%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.88MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"39.2MB / 61.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.16%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.09MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"40.5MB / 63.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.16%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.09MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"40.5MB / 63.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.61%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.29MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"41.8MB / 65.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.61%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.29MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"41.8MB / 65.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.60%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"43.1MB / 67.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.60%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"43.1MB / 67.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.46%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.91MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"44.3MB / 69.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.46%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.91MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"44.3MB / 69.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.99%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.34MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"45.7MB / 71.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.99%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.34MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"45.7MB / 71.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"44.24%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.27MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"46.9MB / 73.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"44.24%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.27MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"46.9MB / 73.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.00%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.2MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"48.2MB / 75.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.00%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.2MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"48.2MB / 75.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.02%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.15MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"49.4MB / 77.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.02%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.15MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"49.4MB / 77.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.91%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.1MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"50.7MB / 79.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.91%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.1MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"50.7MB / 79.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.27%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.08%","MemUsage":"41.8MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"52.1MB / 81.8MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.27%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.08%","MemUsage":"41.8MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"52.1MB / 81.8MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.93%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"53.4MB / 83.8MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.93%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"53.4MB / 83.8MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.58%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.16MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"54.7MB / 85.9MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.58%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.16MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"54.7MB / 85.9MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.42%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.13MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"56MB / 88MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.42%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.13MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"56MB / 88MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.05%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.09MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"57.1MB / 89.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.05%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.09MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"57.1MB / 89.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.22%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.27MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"58.4MB / 91.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.22%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.27MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"58.4MB / 91.7MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"43.33%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.19MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"59.6MB / 93.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"43.33%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.19MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"59.6MB / 93.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"43.94%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.88MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"60.8MB / 95.5MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"43.94%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.88MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"60.8MB / 95.5MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.43%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.84MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"62.1MB / 97.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.43%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.84MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"62.1MB / 97.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.87%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42.03MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"63.4MB / 99.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.87%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42.03MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"63.4MB / 99.6MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"47.12%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"64.7MB / 102MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"47.12%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"64.7MB / 102MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.14%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.12MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"66MB / 104MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.14%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.12MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"66MB / 104MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"43.94%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.04MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"67.3MB / 106MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"43.94%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.04MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"67.3MB / 106MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"44.33%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.98MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"68.4MB / 107MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"44.33%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.98MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"68.4MB / 107MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"41.55%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.92MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"69.5MB / 109MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"41.55%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.92MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"69.5MB / 109MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.25%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.13MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"70.8MB / 111MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.25%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.13MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"70.8MB / 111MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.57%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.14%","MemUsage":"42.36MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"72.1MB / 113MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.57%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.14%","MemUsage":"42.36MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"72.1MB / 113MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.25%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.09MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"73.4MB / 115MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.25%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.09MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"73.4MB / 115MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.38%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.29MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"74.6MB / 117MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.38%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.13%","MemUsage":"42.29MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"74.6MB / 117MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.97%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.15%","MemUsage":"42.48MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"75.8MB / 119MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.97%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.15%","MemUsage":"42.48MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"75.8MB / 119MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"48.72%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.11MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"76.6MB / 120MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"48.72%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.11MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"76.6MB / 120MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"48.41%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.24MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"77.5MB / 122MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"48.41%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.24MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"77.5MB / 122MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"50.25%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.96MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"78.6MB / 123MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"50.25%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.96MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"78.6MB / 123MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.22%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.93MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"79.5MB / 125MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.22%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.93MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"79.5MB / 125MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"43.52%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.91MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"80.6MB / 127MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"43.52%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.09%","MemUsage":"41.91MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"80.6MB / 127MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.48%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.12MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"82MB / 129MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.48%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.12MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"82MB / 129MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.15%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.08%","MemUsage":"41.82MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"83.2MB / 131MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.15%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.08%","MemUsage":"41.82MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"83.2MB / 131MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.05%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.99MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"84.5MB / 133MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.05%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.99MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"84.5MB / 133MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.17%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.95MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"85.7MB / 135MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.17%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.95MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"85.7MB / 135MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.13%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.15MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"87MB / 137MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.13%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.15MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"87MB / 137MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.80%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.09MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"88.3MB / 139MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.80%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.11%","MemUsage":"42.09MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"88.3MB / 139MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.67%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42.01MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"89.5MB / 140MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.67%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"42.01MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"89.5MB / 140MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.91%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.98MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"90.8MB / 143MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"45.91%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.10%","MemUsage":"41.98MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"90.8MB / 143MB","PIDs":"3"}[K
+[K
+[J[H{"BlockIO":"0B / 872kB","CPUPerc":"46.30%","Container":"e86f704e6869071f9c4a1a08262ed63a2541bb4c1ca521ca23f638200f5d7b99","ID":"e86f704e6869","MemPerc":"4.12%","MemUsage":"42.16MiB / 1GiB","Name":"group5-performance-app-1","NetIO":"92.1MB / 145MB","PIDs":"3"}[K
+[K
+[J
