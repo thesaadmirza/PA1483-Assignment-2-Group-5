@@ -15,4 +15,4 @@ pip install -r qa3/config/requirements.txt
 flask --app qa3/scripts/app run
 ```
 
-Open http://127.0.0.1:5000/ to see `Hello, Flask!`.
+Open http://127.0.0.1:5000/ to see a list of 20 numbers.
