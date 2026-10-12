@@ -1,0 +1,28 @@
+name: group5-performance
+
+services:
+  app:
+    build: .
+    image: group5-flask:local
+    environment:
+      CACHE: ${CACHE:-on}
+    cpus: 1
+    mem_limit: 1g
+    memswap_limit: 1g
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/', timeout=2)"]
+      start_period: 10s
+      start_interval: 1s
+      interval: 1h
+      timeout: 3s
+
+  load:
+    image: group5-flask:local
+    profiles: [test]
+    depends_on:
+      app:
+        condition: service_healthy
+    volumes:
+      - ./data:/data
+    entrypoint: ["locust", "-f", "locustfile.py", "--host", "http://app:8000"]
+    command: ["--headless", "-u", "10", "-r", "10", "-t", "60s"]
