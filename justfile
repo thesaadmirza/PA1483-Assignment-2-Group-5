@@ -13,3 +13,6 @@ bench duration="60s":
 
 stop:
     docker compose -f qa3/compose.yaml down
+
+summary:
+    python3 qa3/scripts/summary.py
