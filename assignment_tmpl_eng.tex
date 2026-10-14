@@ -190,7 +190,9 @@ We chose performance to see how quickly a Flask app handles requests and how muc
 \label{sec:performance-measurements}
 We used Flask 3.1.3, Jinja2 3.1.6, Python 3.13.16, Gunicorn 26.2.0 and Locust 2.46.7. The app and Locust ran in separate Docker containers on an ARM64 Mac connected to AC power. Docker had four CPUs and about 5.8 GiB of memory. The app was limited to one CPU and 1 GiB of memory, with no swap, using one Gunicorn worker and one thread.
 
-Our app has one page with a list of 20 numbers. It uses a template file. We set the Jinja cache size to 400 for caching on and 0 for caching off, and disabled automatic template reload in both cases. With caching on, Jinja reuses the prepared template. With it off, Jinja loads and compiles the template again. The page is still built for every request in both cases.\footnote{\url{https://jinja.palletsprojects.com/en/stable/api/}}
+Our app has one page with a list of 20 numbers. We set the Jinja cache size to 400 for caching on and 0 for caching off, and disabled automatic template reload in both cases.
+
+Flask uses Jinja to render our page. With caching on, Jinja keeps the compiled template in memory and reuses it for later requests. This avoids loading and compiling the same template again. We compare caching on and off to measure the effect of this reuse. The page is still built for every request in both cases.\footnote{\url{https://jinja.palletsprojects.com/en/stable/api/}}
 
 We started a fresh app container for each run. After a 15-second warm-up, we measured for 60 seconds. Two Locust workers shared ten simulated users, who sent requests without pauses. Locust reset the statistics once the users had started. We checked each response for status 200 and 20 list items. We ran each cache setting three times, in the order shown in the table.
 
@@ -220,9 +222,9 @@ Median & off & 11 & 1254.3 & 42.80 \\
 
 All 613,107 measured requests passed the response checks. The app did not restart or run out of memory. Our earlier tests had CPU warnings from Locust, so we repeated all six runs with two workers. These new runs had no CPU warnings and are the ones shown in the table.
 
-Our repository is \url{https://github.com/thesaadmirza/PA1483-Assignment-2-Group-5}. We measured code commit \path{cbd5b5ef88b07f62d200b9ffffc24f7774fed6d1}. Scripts are in \path{qa3/scripts/}, settings in \path{qa3/compose.yaml}, and results in the six folders listed in \path{qa3/data/environment.txt}. Each run includes logs, package versions and settings.
+The scripts, settings and results are included with this assignment in the \path{qa3/} folder. Scripts are in \path{qa3/scripts/}, settings are in \path{qa3/compose.yaml}, and results are in the six folders listed in \path{qa3/data/environment.txt}. Each run includes logs, package versions, settings and the measured code version in \path{commit.txt}.
 
-To repeat the test, run \texttt{just build} once, then \texttt{just start on} or \texttt{just start off}, followed by \texttt{just bench} for each run. Use \texttt{just stop} when finished. The command \texttt{just summary} reads the listed run folders; update the list to summarise a new batch.
+To repeat the test, open the main assignment folder containing the \path{justfile}. Run \texttt{just build} once, then \texttt{just start on} or \texttt{just start off}, followed by \texttt{just bench} for each run. Use \texttt{just stop} when finished. The command \texttt{just summary} reads the listed run folders; update the list to summarise a new batch.
 
 \subsection{Discussion}
 \label{sec:performance-discussion}
