@@ -1,0 +1,5 @@
+Darwin arm64
+engine=29.8.2 os=linux arch=aarch64 cpus=4 memory_bytes=6210576384
+Docker Compose version v5.5.1
+Python 3.13.16
+nano_cpus=1000000000 memory_bytes=1073741824 memory_and_swap_bytes=1073741824

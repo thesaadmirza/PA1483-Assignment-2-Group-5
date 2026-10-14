@@ -1,0 +1,13 @@
+host=Darwin arm64
+engine=29.8.2 os=linux arch=aarch64 cpus=4 memory_bytes=6210576384
+Docker Compose version v5.5.1
+image=sha256:43b7ba3f27bb2b23aa64d600fe819c72bac09f54c5afb303b2b6275b4162d70d
+Python 3.13.16
+app_cpu_quota=1 app_memory_bytes=1073741824 app_swap_bytes=0
+run_1=20261012T164451Z-on
+run_2=20261012T164611Z-off
+run_3=20261012T164732Z-off
+run_4=20261012T164852Z-on
+run_5=20261012T165011Z-on
+run_6=20261012T165130Z-off
+power=AC during the recorded runs
