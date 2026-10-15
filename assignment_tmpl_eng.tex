@@ -228,13 +228,13 @@ To repeat the test, open the main assignment folder containing the \path{justfil
 
 \subsection{Discussion}
 \label{sec:performance-discussion}
-In each run pair, caching gave lower P95 response time and higher requests per second. The median P95 was 7 ms with caching and 11 ms without it. The median request rates were 2173.0 and 1254.3 per second. This agrees with the expected benefit of avoiding repeated template loading and compilation.
+We compared caching on and off in three run pairs: runs 1--2, 3--4 and 5--6. In every pair, caching gave a lower P95 response time and higher throughput. The median P95 was 7 ms with caching and 11 ms without it. The median throughput was 2173.0 requests/s with caching and 1254.3 requests/s without it. These results support keeping the compiled template in memory so Jinja can reuse it.
 
-Caching used more memory in two pairs and less in the other. The median peak was 43.90 MiB with caching and 42.80 MiB without it. The first cached run reached 64.09 MiB, but we do not know why it was higher. These readings cover the whole app container, so we cannot tell how much of that memory belonged to the cache.
+The memory results were less clear. Peak sampled memory was higher with caching in two pairs and lower in one. The median was 43.90 MiB with caching and 42.80 MiB without it. The first cached run reached 64.09 MiB, but we do not know why. We measured the whole app container, so we cannot tell how much memory the cache itself used.
 
-The cached runs varied from 1788.3 to 2513.2 requests/s. We only tested one small template with ten users on a shared laptop. That limits what we can say about the size of the improvement or Flask’s maximum capacity. We also had no response-time or throughput target to judge the app against.
+The results also varied between runs. With caching, throughput ranged from 1788.3 to 2513.2 requests/s. We tested only one small template with ten simulated users on a shared laptop. Other apps or test conditions may give different results. These tests do not show Flask's maximum capacity. We also had no performance target, so we can compare the two settings but cannot say whether the app meets a required response time or throughput.
 
-Based on these tests, we would keep Jinja’s template cache enabled in this app. We have not checked how other applications use it, and our results do not suggest that the caching design needs replacing. A next test could use more templates and different user counts, with Locust running on a separate machine.
+For this app, we would keep Jinja's template cache enabled because it improved response time and throughput in all three comparisons. Our results give us no reason to replace the caching design. A next test could use more templates and different user counts. Running Locust on a separate machine would reduce competition between the app and Locust for the laptop's CPU and memory.
 
 \section{More information}
 \label{sec:more}
