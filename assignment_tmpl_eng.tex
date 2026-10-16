@@ -91,85 +91,116 @@ Supervisor(s) & Supervisor name(s), if applicable \\
 \section{Preparation}
 \label{sec:intro}
 \subsection{Select and Explore a Software System}
+Flask is a lightweight web application framework built on WSGI. It is designed to be both quick and easy to get started with, but it is also designed in a way that allows for the program to scale for more complex applications. Flask started as a simple layer around Werkzeug and Jinja and has since become one of the most popular Python frameworks for web applications. Flask is structured in such a way that it only provides suggestions and never forces any dependencies or any project layout. The developer can choose which tools and libraries to use. (Source: Flask Documentation \cite{flaskdocs} and README) \\ We believe that it is suitable for users such as developers of web applications in Python and developers of add ons. That is, users who want a simple framework where they themselves choose the tools and libraries, as well as functionality outside the core. \\
+
+Link to Flask source code: https://github.com/pallets/flask \\
+
+\noindent \textbf{Key characteristics:}
+\begin{itemize}
+    \item \textbf{Age:} The project is about 16.5 years old. The first commit was made on April 6, 2010.
+    \item \textbf{Repository Size:} \texttt{src/flask} has 24 Python files with 7,563 lines of code (excluding empty lines). The \texttt{tests/} directory has 5,851 lines.
+    \item \textbf{Contributors:} 874 different author email addresses have made commits to the repository.
+\end{itemize}
+
+\noindent \textbf{Activity over time:}
+\begin{itemize}
+    \item Most commits were made in 2010 (556), 2014 (465), and 2021 (458).
+    \item After 2023, the activity dropped: 172 commits in 2024, 90 in 2025, and 84 in 2026 
+\end{itemize}
+
 \subsection{Decide on Relevant Quality Attribute}
 \textbf{Quality attributes}\\
 Quality attributes that is relevant for our system is Modifiability, Testability and Performance. \\ Modifiability is about changes that happens all the time and that we should be able to lower the cost and risks of it. There is four questions that is necessary to answer for this. The first one is "What can change?" that includes all of the chnages related to the system starting from harwdare, software ending with its capacity. \cite[8]{SAP} The second one is "What is the likelihood of the change?", describes that it is important to highlight changes that might occure and plan for them. The third one is "When is the change made and who makes it?" is about the more changes is easy to make, for example trough settings etc, the better because specialist stakeholders are not required. \cite[8]{SAP}. The last one is "What is the cost of the change?" the book divides it to two steps, making a mechanism for changes and using it. Depending on how often you will need changes to be done you choose is there should be such a thing or not. \cite[8]{SAP} \\
 Testability is about how easy it is for the system to show its faults when testing it. That is to say if system do not hide them from testers. It also important to be able to recreate faults so it is possible to show them and find a reason they occurred. \cite[12]{SAP}\\
 Performance is about if systems software is capable of time criterion that were established, and how fast it works. Different computer actions requires some time, everything from math calculation and disk connection  to reaching a database or another server. Therefore it is important to think about time when you planning a system. There are different event that should be answered in time, and performance is about how often they occur and how fast do the system answer. \cite[9]{SAP}\\
 \textbf{Importance of Modifiability and Testability}\\
+ Modifiability is important for the system because it provides a stable web application base with the ability to develop it more, without specific dependencies or project layout. \cite{flaskgit} As it says in 1.1 first commit was made in 2010, from that moment many tools that we use to build web applications may have changed, for example in CHANGES.rst Version 0.10, Released date 2013-06-13 one of the changes were that it now will require Python 2.6 or 2.7 to prepare for Python 3.3 \cite{flaskgit}. It also include over 800 contributors that changed something in the system since it was built, therefore it must include modifiability in order to not destroy another code.\\
+ Testability is important because it have many pull requests that people may do, in order to sort them Flask have some test that must be successful before it goes farther. In flask/docs/contributing there are documentation named  "Contribute to a Pallets Project" that describes how a pull request should be done, is an subsection "Tests" \cite{pullr}. There are information provided on how to run them, for example type "pytests" to test in current environment. To be able to make a successful pull request the test must be as well successful and presented. \\
+ \textbf{Performance}\\
+ We choose performance because this is a web framework where every request take time. In flask/docs/lifecycle.rst \cite{flaskgit} you can see under "How a Request is Handled" how Flask handle request and generate response, that takes 24 steps where every one takes time.  In \cite{flaskdocs} "Async/await and ASGI support" developer describes that because Flask were built before async were implemented in python it goes with separate coroutines that runs in each threads instead of event loop in main one. It cost more to have threads and makes Flask slower, but is necessary for Flasks code and extensions that were built before async function in python.\cite{flaskdocs} It is a "Compromise" that developers did, and it shows that Performance is import part of the system. 
+
+
+ \subsection{System Structure and Architecture Decisions}
+
+Decomposition View of Flask
+
+
+ \textbf{Application base module} - Build web application \\
+ \indent sansio\\
+ \indent \indent app.py\\
+ \indent \indent scaffold.py\\
+ \indent \indent blueprints.py\\
+ \indent app.py\\
+ \indent blueprints.py\\
+ \indent config.py\\
+ \indent views.py\\
+
+ \textbf{Request module} - responsible to get requests and send response  \\
+ \begin{quote}
+ wrappers.py\\
+ ctx.py\\
+ helpers.py
+\end{quote} 
+
+ \textbf{Helpers for request module} - tools that helps to send response and remember sessions \\
+ \begin{quote}
+     globals.py\\
+     sessions.py\\
+     signals.py\\
+     templating.py\\
+     json/
+ \end{quote}
+
+ \textbf{Helpers for developers module} - tools that makes it easier to use/test application\\
+ \begin{quote}
+     debughelpers.py\\
+     typing.py\\
+     logging.py\\
+     testing.py\\
+     cli.py
+ \end{quote}
+
+We divided code in four module because each of it has it own responsibility. First one to build a web application base with objects and configuration, second one is responsible of taking requests and sendning response, third one is to help request module with its work. The last one is to help developers develop their own application. Flask was described as lightweight and easy therefore it provides just base structure with ability to add extensions \cite{flaskgit}. It also fits better with modifiability because each module has its own responsibility and is easier to change without destroying something else.\\
+\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+
+\textbf{Performans view}\\
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{performanceview.drawio.png}
+    \caption{Runtime view of getting template in Flask}
+    \label{fig:placeholder}
+\end{figure}
+
+This figure describes tactic named "Maintain multiple copies of data" where one of common examples is caching. Meaning with that is to reuse and save data that was recently used\cite[9]{SAP}. This is whats happening here. Jinja that can store cache\url{https://jinja.palletsprojects.com/en/stable/api/#high-level-api} calls from templating.py and after it fills in template that goes back to render\_template(), Flaks makes it to a response\cite{flaskgit} in src/templating.py and src/app.py. Under rubric 4 you can see more about it. 
+
+For decomposition view our decisions where find in flask/src \cite{flaskgit} and README file that describes Flask as lightweight and easy to use. \\
+For Runtime view of tactic for Performance, we found have Flask handle request in flask/docs/ lifecycle.rst where 24 steps developers could summarize to 3 which we used in diagram. Also in flask/src we found templating.py with function that calla Jinja, responsible for cache, from function render\_template, and function create\_jinja\_environment from app.py that build Jinja environment for this purpose. 
 
 
 
 
-\section{Sections and subsections}
-\label{sec:main}
-All assignment submissions should have a Section \textit{Introduction} where you describe the overall purpose of the assignment, introduce key concepts or terms and give a very brief overview over your approach or solution. The remainder of your submission should be structured into sections and subsections that are appropriate for the current assignment. The structure should provide a good high-level overview over your submission, so that it is easy to navigate through the contents and find specific parts. A single \textit{Main}-section will be insufficient, except for very short assignments.
-Which sections and/or subsections are required or suitable will differ from assignment to assignment. Examples of sections or subsections for assignments are Prerequisites, Assumptions, Related work, Results, Analysis, Design, Implementation, Limitations, Evaluation, Discussion, Summary, and Conclusions.
-
-The formatting of sections and subsections is exemplified below. Please note that regular paragraphs in sections, subsections, and sub-subsections are not indented. Paragraphs start at the left margin of the page and are aligned left and right, i.e. as in the paragraphs in this document. There is no space between paragraphs. However, the first line of a paragraph is indented, except for the first paragraph in each section, subsection, and sub-subsection.
+\section{Modifiability}
+We chose modifiability 
 
 
-\subsection{Example subsection header}
+\subsection{Metrics}
 
-\subsubsection{Example sub-subsection header}
-Normally, you should not use subsections on levels deeper than three. If you need more structure below level three or if you want to structure your text without numbered headers, you can for example use lists or named paragraphs. You can have bullet-lists, numbered lists, etc. Some examples are shown below. After the example lists, you can also see an example of a named paragraph. 
+
+
+
+
+\section{Testability}
+\label{sec:testability}
+We chose testability to evaluate how easily and effectively Flask tests applications.
+\subsection{Metrics}
 \begin{itemize}
-    \item A list item.
-    \item Another list item.
-    \begin{enumerate}
-        \item Lists can be nested. The text for a single list item may span several lines and should be indented as shown in this example.
-        \begin{enumerate}
-            \item You should not nest them too deeply, though.
-            \item There are more types of lists, but the ones here should do for a start.
-        \end{enumerate}
-        \item You can also change the numbering scheme, but the standard settings shown here should do for a start. 
-    \end{enumerate}
+\item\textbf{Code Health:} To have an overview of the quality of the code, lower code health can indicate code that is hard to maintain and test.
+\item\textbf{Change Coupling:} To check the test-maintenance of the test files in relationship with the production code and assess the test-maintenance overhead.
+\item\textbf{Test success rate:} To check whether the test files are being executed as intended using Pytest.
 \end{itemize}
 
-\paragraph{Named paragraph.}
-Note that named paragraphs are not numbered.
-
-
-\section{Tables, figures and references}
-\label{sec:tab}
-In your assignments, you can use tables, figures and references. The entries in the reference list should be sorted alphabetically. Examples of tables and figures are shown below. Their numbering is automatic. Please note that table captions are on top of the tables, whereas figure captions are below the figures.
-Please do also note that figures and tables are placed automatically and do not always end up where intended.
-
-\begin{table}[bth]
-\centering
-\caption{An example of a table.}
-\label{tab:ex}
-%\begin{small}
-\begin{tabular}{|l|r|p{6cm}|}
-\hline
-\textbf{Items} & \textbf{Number} & \textbf{Comment} \\
-\hline
-Books & 25 & We categorized everything longer than 50 pages as a book. \\
-\hline
-Reports & 8 & Blablabla... \\ 
-\hline
-Etc. & & \\
-\hline 
-\end{tabular}
-%\end{small}
-\end{table}
-
-Creating tables and figures can be difficult, since \LaTeX\ is no ``what you see is what you get'' environment. For simple tables, you can use generators, like the one on  \url{https://www.tablesgenerator.com} for help. For figures, it is easiest to provide them in separate files and import them using \LaTeX's \texttt{\textbackslash includegraphics} command. The included files can have various formats, like, for example, JPG or PDF.
-Using command \texttt{\textbackslash ref}, you can insert cross-references to other places in your document, for example sections (e.g., Section \ref{sec:intro}), tables (e.g., Table \ref{tab:ex}), figures (e.g., Figure \ref{fig:bth}), listings (e.g., Listing \ref{lst:add})), equations (e.g., Equation \ref{eq:fx}), etc. Note that you can only reference places that have a corresponding \texttt{\textbackslash ref} command in the \LaTeX\ code. This command you need to place there manually. For references to literature (citations), there is a special command (\texttt{\textbackslash cite}). You can find examples for that in the next section.
-
-\begin{figure}[bth]
-\centering
-\includegraphics[width=0.6\columnwidth]{example-graph}
-\caption{An example graph.}
-\label{fig:uml}
-\end{figure}
-
-\begin{figure}[bth]
-\centering
-\includegraphics[width=0.6\columnwidth]{example-fig}
-\caption{An example figure.}
-\label{fig:bth}
-\end{figure}
+\subsection{Measurements}
+\subsection{Discussion}
 
 
 
