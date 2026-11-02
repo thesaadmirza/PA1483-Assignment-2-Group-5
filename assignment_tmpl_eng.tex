@@ -53,16 +53,26 @@ Supervisor(s) & Supervisor name(s), if applicable \\
  & Contribution   & Section 4 \\
 \hline
 \multirow{4}{*}{Student 2}
- & Name           &  \\ \cline{2-3}
- & E-Mail         &  \\ \cline{2-3}
- & Program        &  \\ \cline{2-3}
- & Contribution   &  \\
+ & Name           &  Alexander Jamal \\ \cline{2-3}
+ & E-Mail         &  aljm19@student.bth.se \\ \cline{2-3}
+ & Program        &  DVAMI23h \\ \cline{2-3}
+ & Contribution   &  Section 3\\
 \hline
+\multirow{4}{*}{Student 3}
+ & Name           &  Sergii Gavryk \\ \cline{2-3}
+ & E-Mail         &  sega24@student.bth.se \\ \cline{2-3}
+ & Program        &  PAAMV24h \\ \cline{2-3}
+ & Contribution   &  Section 2 and 1.1\\
+\hline
+\multirow{4}{*}{Student 4}
+ & Name           &  Aleksandra Zhurzhenko \\ \cline{2-3}
+ & E-Mail         &  alzh24@student.bth.se \\ \cline{2-3}
+ & Program        &  PAAMV24h \\ \cline{2-3}
+ & Contribution   &  Section 1.2 and 1.3\\
+\hline
+
 \end{longtable}
 \end{small}
-
-\todo[inline]{Please add/delete table rows, if necessary. You can leave the rows for group name/ID and/or supervisors empty or delete them, if there are no groups or specific supervisors for the assignment. Don't forget to delete the blue comment-boxes before submission by uncommenting the row \texttt{\textbackslash togglefalse\{todos\}} at the top of the \LaTeX\ source code.}
-\todo[inline]{If you use some other text processing software (e.g., Word), please make sure to follow the formatting used in this document as closely as possible.}
 
 % *** BELOW YOU MAINTAIN THE DOCUMENT HISTORY ***
 \begin{small}
@@ -77,7 +87,6 @@ Supervisor(s) & Supervisor name(s), if applicable \\
 \hline 
 \end{longtable}
 \end{small}
-\todo[inline]{In the table above, you should briefly describe the revision history of your submission.}
 
 \setcounter{table}{0}  % The tables on the front page shouldn't be counted
 
@@ -88,6 +97,16 @@ Supervisor(s) & Supervisor name(s), if applicable \\
 \newpage
 
 % *** THE ACTUAL ASSIGNMENT CONTENT STARTS HERE ***
+\paragraph{AI Usage} \mbox{} \\
+\\
+Student 1: Used Claude for writing python scripts.\newline 
+\\
+Student 2: Used ChatGPT to set up the environment for testing in my local computer, made sure all dependencies were up to date in order to perform the tests more accurately.\newline 
+\\
+Student 3: I used Claude AI assistance to create scripts for 2.2. I have checked and run scripts in VS Code, where I got test results. I used AI like Chat GPT to learn course material and to critique my work. I have also used google translate with gemini translating function. \newline
+\\
+Student 4: I used Claude AI to translate some sections in the books and documentation files in Flask repository, to Swedish to understand them more. 
+
 \section{Preparation}
 \label{sec:intro}
 \subsection{Select and Explore a Software System}
@@ -109,19 +128,19 @@ Link to Flask source code: https://github.com/pallets/flask \\
 \end{itemize}
 
 \subsection{Decide on Relevant Quality Attribute}
-\textbf{Quality attributes}\\
-Quality attributes that is relevant for our system is Modifiability, Testability and Performance. \\ Modifiability is about changes that happens all the time and that we should be able to lower the cost and risks of it. There is four questions that is necessary to answer for this. The first one is "What can change?" that includes all of the chnages related to the system starting from harwdare, software ending with its capacity. \cite[8]{SAP} The second one is "What is the likelihood of the change?", describes that it is important to highlight changes that might occure and plan for them. The third one is "When is the change made and who makes it?" is about the more changes is easy to make, for example trough settings etc, the better because specialist stakeholders are not required. \cite[8]{SAP}. The last one is "What is the cost of the change?" the book divides it to two steps, making a mechanism for changes and using it. Depending on how often you will need changes to be done you choose is there should be such a thing or not. \cite[8]{SAP} \\
-Testability is about how easy it is for the system to show its faults when testing it. That is to say if system do not hide them from testers. It also important to be able to recreate faults so it is possible to show them and find a reason they occurred. \cite[12]{SAP}\\
+\textbf{Quality attribute}\\
+Quality attribute that is relevant for our system is Modifiability, Testability and Performance. \\ Modifiability is about changes that happens all the time and that we should be able to lower the cost and risks of it. There are four questions that are necessary to answer for this. The first one is "What can change?" that includes all of the changes related to the system starting from hardware, software ending with its capacity. \cite[8]{SAP} The second one is "What is the likelihood of the change?", describes that it is important to highlight changes that might occur and plan for them. The third one is "When is the change made and who makes it?" it is about the more changes is easy to make, for example trough settings etc, the better because specialist stakeholders are not required. \cite[8]{SAP}. The last one is "What is the cost of the change?" the book divides it in two steps, making a mechanism for changes and using it. Depending on how often you will need changes to be done, you choose if there should be such a thing or not. \cite[8]{SAP} \\
+Testability is about how easy it is for the system to show its faults when testing it. That is to say, it shows that system do not hide faults from testers. It also important to be able to recreate faults, so it is possible to show them and find a reason they occurred. \cite[12]{SAP}\\
 Performance is about if systems software is capable of time criterion that were established, and how fast it works. Different computer actions requires some time, everything from math calculation and disk connection  to reaching a database or another server. Therefore it is important to think about time when you planning a system. There are different event that should be answered in time, and performance is about how often they occur and how fast do the system answer. \cite[9]{SAP}\\
 \textbf{Importance of Modifiability and Testability}\\
- Modifiability is important for the system because it provides a stable web application base with the ability to develop it more, without specific dependencies or project layout. \cite{flaskgit} As it says in 1.1 first commit was made in 2010, from that moment many tools that we use to build web applications may have changed, for example in CHANGES.rst Version 0.10, Released date 2013-06-13 one of the changes were that it now will require Python 2.6 or 2.7 to prepare for Python 3.3 \cite{flaskgit}. It also include over 800 contributors that changed something in the system since it was built, therefore it must include modifiability in order to not destroy another code.\\
- Testability is important because it have many pull requests that people may do, in order to sort them Flask have some test that must be successful before it goes farther. In flask/docs/contributing there are documentation named  "Contribute to a Pallets Project" that describes how a pull request should be done, is an subsection "Tests" \cite{pullr}. There are information provided on how to run them, for example type "pytests" to test in current environment. To be able to make a successful pull request the test must be as well successful and presented. \\
+ Modifiability is important for the system because it provides a stable web application base with the ability to develop it more, without specific dependencies or project layout. \cite{flaskgit} As it says in 1.1 first commit was made in 2010, from that moment many tools that we use to build web applications may have changed, for example in CHANGES.rst Version 0.10, Released date 2013-06-13 one of the changes were that it now will require Python 2.6 or 2.7 to prepare for Python 3.3 \cite{flaskgit}. It also include over 800 contributors that changed something in the system since it was built, therefore it must include modifiability in order to not destroy any others code.\\
+ Testability is important because it have many pull requests that people may do, in order to sort them Flask have some test that must be successful before it goes farther. In flask/docs/contributing there are documentation named  "Contribute to a Pallets Project" that describes how a pull request should be done, is in subsection "Tests" \cite{pullr}. There are information provided on how to run them, for example type "pytests" to test in current environment. To be able to make a successful pull request the test must be as well successful and presented. \\
  \textbf{Performance}\\
  We choose performance because this is a web framework where every request take time. In flask/docs/lifecycle.rst \cite{flaskgit} you can see under "How a Request is Handled" how Flask handle request and generate response, that takes 24 steps where every one takes time.  In \cite{flaskdocs} "Async/await and ASGI support" developer describes that because Flask were built before async were implemented in python it goes with separate coroutines that runs in each threads instead of event loop in main one. It cost more to have threads and makes Flask slower, but is necessary for Flasks code and extensions that were built before async function in python.\cite{flaskdocs} It is a "Compromise" that developers did, and it shows that Performance is import part of the system. 
 
 
  \subsection{System Structure and Architecture Decisions}
-
+\label{sec:system_structure}
 Decomposition View of Flask
 
 
@@ -182,11 +201,82 @@ For Runtime view of tactic for Performance, we found have Flask handle request i
 \section{Modifiability}
 We chose modifiability 
 
+• A short definition: What does the metric measure, and how is it obtained?
+• A justification: Why does a higher (or lower) value indicate higher quality?
+• A limitation: In what situation could the metric be misleading?
 
 \subsection{Metrics}
+\subsubsection{Change coupling between modules}
+\begin{itemize}
+\item \textbf{Definition:}This measures how often files from different modules are changed in the same commit. We look at the four modules from 1.3 and count with git log.
+\item \textbf{Justification:} A low value is good, because then you can change one module without having to touch the others.
+\item \textbf{Limitation:} The metric can give a wrong picture if a commit changes many files just because the code was reformatted or because dependencies were updated.
+\end{itemize}
 
+\subsubsection{Commit size}
+\begin{itemize}
+\item \textbf{Definition:} This measures how many lines are changed in a regular commit. We take the median and do not count merge commits. This can be obtained with git log --numstat.
+\item \textbf{Justification:} Small commits are good, because then changes are made in small steps that can be easier to understand.
+\item \textbf{Limitation:} The metric can give a wrong picture if developers merge several commits into one or if the code that was generated and documentation is changed.
+\end{itemize}
 
+\subsubsection{Dependencies between modules}
+\begin{itemize}
+\item \textbf{Definition:} This measures how many times a module imports another, and if there are circular dependencies. We check the import statements with a small script.
+\item \textbf{Justification:} Few dependencies and no circles are good, because then the modules are not so tightly connected.
+\item \textbf{Limitation:} The metric does not say anything about how strong the dependency is, and imports that only occur when the code is run can be missed.
+\end{itemize}
 
+\subsection{Measurements}
+For all measurements, we have started from the Flask source code in \texttt{src/flask/} up to commit \texttt{d086db856be187255b8ec61ef409357393020f32} (2026-10-07). The files have been divided into the four modules that we defined in section~\ref{sec:system_structure}.
+
+\subsubsection{Change coupling between modules}
+To investigate how often the modules change together, we analyzed the entire Git history for \texttt{src/flask/} via a Python script that ran \texttt{git log}.
+
+Out of a total of 5,562 commits in the project, 401 affected files within our four modules. The results show that:
+\begin{itemize}
+    \item \textbf{Individual modules:} 299 commits (75\%) affected only a single module.
+    \item \textbf{Multiple modules:} 102 commits (25\%) changed code in more than one module at the same time. Of these, 61 commits affected two modules, 24 commits affected three modules, and 17 commits affected all four.
+\end{itemize}
+
+The most common pairs of changes were:
+\begin{itemize}
+    \item \texttt{base} $\leftrightarrow$ \texttt{request}: 58 commits
+    \item \texttt{base} $\leftrightarrow$ \texttt{dev\_helpers}: 51 commits
+    \item \texttt{base} $\leftrightarrow$ \texttt{req\_helpers}: 39 commits
+    \item \texttt{request} $\leftrightarrow$ \texttt{dev\_helpers}: 32 commits
+    \item \texttt{request} $\leftrightarrow$ \texttt{req\_helpers}: 31 commits
+    \item \texttt{req\_helpers} $\leftrightarrow$ \texttt{dev\_helpers}: 24 commits
+\end{itemize}
+
+\subsubsection{Commit size}
+The size of the changes was measured by summing added and removed lines per commit for non-merge commits in \texttt{src/flask/} (via \texttt{git log --no-merges} and \texttt{git show --numstat}).
+
+The measurement was based on the 411 commits that actually contained code changes in the modules:
+\begin{itemize}
+    \item \textbf{Median:} 10 lines per commit
+    \item \textbf{Mean:} 75.6 lines
+    \item \textbf{Quartiles:} P25 = 3 lines, P75 = 41 lines
+    \item \textbf{Largest change:} 8,161 lines in a single commit
+\end{itemize}
+The average is significantly skewed by a few very large changes, making the median of 10 lines a more accurate measure of a typical commit size.
+
+The number of import statements between the modules was distributed as follows:
+\begin{itemize}
+    \item \texttt{base} $\rightarrow$ \texttt{req\_helpers}: 40 imports
+    \item \texttt{base} $\rightarrow$ \texttt{request}: 30 imports
+    \item \texttt{base} $\rightarrow$ \texttt{dev\_helpers}: 12 imports
+    \item \texttt{request} $\rightarrow$ \texttt{req\_helpers}: 11 imports
+    \item \texttt{req\_helpers} $\rightarrow$ \texttt{request}: 8 imports
+    \item \textbf{Other directions:} between 1 and 6 imports each
+\end{itemize}
+
+\subsection{Discussion}
+Our measurements show that Flask can be both good and less good when it comes to modifiability. The positives are that changes are often small, this is shown by the median being only 10 lines per commit, which makes it easier to understand and test changes. In addition, the measurements showed that 75\% of all commits affect only a single module. This means that there is a module division, so you can work in one module without having to touch the others.
+
+At the same time, these modules are hard-coupled with each other. So that all modules import from all others so there are dependencies. The base module is often changed together with request and dev\_helpers. This means that changes to the core can affect other parts of the code, and increases the risk of errors.
+
+In summary, small commits and the high proportion of module changes make it easier to make changes locally. However, since there are many dependencies between modules, you should be careful when changing the core, so as not to break anything else. A possible improvement could be to reduce the dependencies from the base module or to make the boundaries between modules clearer.
 
 
 \section{Testability}
@@ -194,13 +284,26 @@ We chose modifiability
 We chose testability to evaluate how easily and effectively Flask tests applications.
 \subsection{Metrics}
 \begin{itemize}
-\item\textbf{Code Health:} To have an overview of the quality of the code, lower code health can indicate code that is hard to maintain and test.
-\item\textbf{Change Coupling:} To check the test-maintenance of the test files in relationship with the production code and assess the test-maintenance overhead.
-\item\textbf{Test success rate:} To check whether the test files are being executed as intended using Pytest.
+\item\textbf{Code Health (1-10):} To have an overview of the quality of the code, lower code health can indicate code that is hard to maintain and test.
+\item\textbf{Code coverage (\%):} Coverage shows how much of the application code is executed and can indicate whether the tests run the full code or misses parts of it.
+\item\textbf{Test success rate (\%):} To check whether the test files are being executed as intended using Pytest.
 \end{itemize}
 
 \subsection{Measurements}
+First we forked the repository of Flask and ran the environment on our local computer, using the analysis function that CodeScene provides, we were able get the Code Health value of the repository as a whole. Since we are looking into testability we found that the code health for the test suite within the repository was 8.7/10. In figure 2 can be shown the code health for the different test files where most of them are healthy (10/10 code health) with the exception of "test\_basic.py" which is connected to the application and other test files, and "test\_blueprints.py".\newline
+To measure the code coverage of flasks we used the coverage function within pytest-cov and ran the coverage test on the Flask application that resulted in a total coverage of 95\%.
+Finally, in order to try the test success rate we used the pytest command to let the tests run. After setting up the environment to get all functions work properly, the result was that the 491 tests ran successfully and passed while 3 were skipped, with the total amount it took being 2.50 seconds. The success rate of the tests that have been run is 100\%.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{code_health_tests.png}
+    \caption{Code Health for the test suite}
+    \label{fig:code_health}
+\end{figure}
 \subsection{Discussion}
+The results suggest that the Flask project has a well maintained and exercised test suite. The CodeScene code health of the test files, with a result of 8.7/10, indicate a fairly strong code health within the test files. The test files with a score of 10/10 in code health can be overlooked but further investigation with the test files "test\_basic.py" and "test\_blueprints.py" is needed to improve their code health. \newline
+The code coverage of 95\% indicate that when the application is being tested, the grand majority of lines are being run, which is a positive thing for the codes testability, showing that the tests cover the vast majority of the application.\newline
+The test success rate showing 491 tests executing and passing, with 3 being skipped and no failures indicates a high success rate, meaning that the tests running in the right environment with the dependencies needed can successfully pass and run.\newline
+Taken into account the three measurements, we can see that Flask repository has a fairly positive testability, with only a few test files needed to be looked over to strengthen the overall testability of the system. Alas testability is much broader than this and some important aspects may have been overlooked such as testing the units individually. 
 
 
 
@@ -267,9 +370,9 @@ The results also varied between runs. With caching, throughput ranged from 1788.
 
 For this app, we would keep Jinja's template cache enabled because it improved response time and throughput in all three comparisons. Our results give us no reason to replace the caching design. A next test could use more templates and different user counts. Running Locust on a separate machine would reduce competition between the app and Locust for the laptop's CPU and memory.
 
-\section{More information}
-\label{sec:more}
-For more details on report writing, please refer to \textit{Rapportskrivning för ingenjörer} \cite{nilsson2018rapport} (Swedish only), which can be downloaded from the library's Writing Guide (Skrivguiden)\footnote{\url{http://skrivguiden.se/resurser/bth-resurser/} (Swedish) or \url{http://writingguide.se/resources/bth-resources/} (English)}.  There are also of resources for learning \LaTeX\ on \url{https://www.overleaf.com/learn}. There are also numerous free guides for learning \LaTeX\ on the Internet, e.g., \cite{oetiker2011not}.
+%\section{More information}
+%\label{sec:more}
+%For more details on report writing, please refer to \textit{Rapportskrivning för ingenjörer} \cite{nilsson2018rapport} (Swedish only), which can be downloaded from the library's Writing Guide (Skrivguiden)\footnote{\url{http://skrivguiden.se/resurser/bth-resurser/} (Swedish) or \url{http://writingguide.se/resources/bth-resources/} (English)}.  There are also of resources for learning \LaTeX\ on \url{https://www.overleaf.com/learn}. There are also numerous free guides for learning \LaTeX\ on the Internet, e.g., \cite{oetiker2011not}.
 
 % All references are stored in a separate bib-file: ass-refs.bib
 %\clearpage
